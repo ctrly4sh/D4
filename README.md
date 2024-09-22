@@ -24,4 +24,5 @@ Some Telegram bots made using nodejs !
 1. Clone the repository:
    ```bash
    git clone https://github.com/ctrly4sh/TGbots.git
-   cd QuoteMinderBot
+   cd Tgbots
+
