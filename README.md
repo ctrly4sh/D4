@@ -1,6 +1,11 @@
-# QuoteMinderBot 🌟
+# TGbots 🌟
 
-A Telegram bot that sends you reminders along with a daily quote to brighten your day!
+Some Telegram bots made using nodejs !
+
+#Bot List.
+
+1.Reminder bot with a quote
+... a lot more
 
 ## Tech Stack 🛠️
 - **Node.js**: For building the bot logic.
@@ -18,5 +23,5 @@ A Telegram bot that sends you reminders along with a daily quote to brighten you
 ### Installation 📥
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ctrly4sh/QuoteMinderBot.git
+   git clone https://github.com/ctrly4sh/TGbots.git
    cd QuoteMinderBot
