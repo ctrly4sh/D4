@@ -14,17 +14,26 @@ const bot = new TelegramBot(
 
 let dateAndTime = dayjs().format('DD/MM/YY');
 
+bot.sendPhoto("./assets/203553.jpg")
+
 bot.on('message' , (command)=>{
     const commandId = command.chat.id;
     const commandText = command.text;
 
-    if(commandText == '/start'){
-        bot.sendMessage(commandId , `hey it is ${dateAndTime}`)
-    }
 
-
-
-
-
+   switch (commandText) {
+    case "/start":
+        bot.sendMessage(commandId , `Hey , welocome to y4bots this is ${dateAndTime} , get some useful bots by running /list`)
+        break;
     
+    case "/help":
+        bot.sendMessage(commandId , "listed commands")
+        break;
+
+    case "/list":
+        bot.sendMessage(commandId , "The list of the bots are below")
+        break;
+           
+   }
+
 })
