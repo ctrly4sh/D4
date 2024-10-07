@@ -1,7 +1,8 @@
 const { Client, GatewayIntentBits, REST, Routes } = require('discord.js');
+require('dotenv').config()
 
-const TOKEN = 'MTI5MTgwMDM3MTA2NDQ3MTU2Mg.GRF9yP.I0a9islWB6R3NCA1FzNDTcMGaoblb7vivxj-PM';
-const CLIENT_ID = '1291800371064471562';
+const TOKEN = process.env.DISCORD_BOT_TOKEN;
+const CLIENT_ID = process.env.DISCORD_BOT_CLIENT_ID;
 
 const client = new Client({
   intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent],
