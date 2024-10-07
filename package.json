@@ -1,6 +1,5 @@
 {
-  "name": "D4-discord bot",
-  "type": "module",
+  "name": "D4",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
